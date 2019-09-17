@@ -1,24 +1,19 @@
-# README
+39.106.187.218
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+查看指定进程
+ps aux | grep nginx
 
-Things you may want to cover:
+查看指定端口
+netstat -ano|grep 80
 
-* Ruby version
+总用量
+df -h 
 
-* System dependencies
+指定文件夹大小
+du -sh /root 
 
-* Configuration
+当前目录下所有文件夹，小大排序
+du -sh * | sort -n 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+当前目录全路径
+pwd
